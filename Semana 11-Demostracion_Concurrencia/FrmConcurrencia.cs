@@ -10,7 +10,7 @@ namespace Semana_11_Demostracion_Concurrencia
 
         private void btnSecuencial_Click(object sender, EventArgs e)
         {
-            ActualizarResultado("=====Iniciando Proceso secuencial....=====");
+            ActualizarResultado("=====Iniciando Procesos secuenciales....=====");
             for (int i = 0; i < 5; i++)
             {
                 Thread.Sleep(2000);
